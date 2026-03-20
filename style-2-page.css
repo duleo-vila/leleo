@@ -1,0 +1,39 @@
+/* Basic styling for the icons */
+.fa-solid {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 5px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.fa-solid:hover {
+    color: #007bff; /* Changes color when you hover */
+}
+
+/* The Settings Popup */
+.hidden-window {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+/* The X Close Button */
+.close-btn {
+    float: right;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    color: #888;
+}
+
+.close-btn:hover {
+    color: #000;
+}
